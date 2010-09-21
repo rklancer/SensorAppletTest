@@ -1,4 +1,2 @@
-SceneBox Hack Day
-Saturday, September 18, 2010
-Bocoup Loft
-South Boston
+This is a test of the (old) Concord Consortium sensor applet.
+New, trimmed-down applet coming....
