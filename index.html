@@ -27,7 +27,7 @@
       for (var i = 0; i < numPoints; i++) {
         var yVal = data[i];
         this.index++;
-        $('tbody').append('<tr><td>' + this.index + '<\/td><td>' + yVal + '<\/td><\/tr>');
+        $('tbody').prepend('<tr><td>' + this.index + '<\/td><td>' + yVal + '<\/td><\/tr>');
       }
     },
     
