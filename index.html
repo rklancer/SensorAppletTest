@@ -40,6 +40,19 @@
       $('#start').attr('disabled', false);
       
       this.appletInstance = $('#applet')[0];
+    },
+    
+    /**
+      applet callback
+    */
+    dataStreamEvent: function () {
+      var args = Array.prototype.splice.apply(arguments);
+
+      console.group('dataStreamEvent');
+      for (var i = 0; i < args.length; i++) {
+        console.log(args[i]);
+      }
+      console.groupEnd();
     }
   };
   
